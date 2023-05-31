@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section-1{
+    background-color: #1f2937;
+    color: white;
+    height: 640px;
+}
+.logo{
+    font-size:24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+ul li {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;  
+    margin-top: 50px;
+}
+.content{
+    width: 400px;
+    height: 200px;
+    margin-left: 73px;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+.container button{
+    color: white;
+    border: none;
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 4px;
+}
+.img{
+    margin-top:100px ;
+}
+.img img{
+    width: 500px;
+    height: 220px;
+    object-fit: cover;
+}
+.card1{
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882f6;
+    border-radius: 8px;
+}
+.section-2{
+    height: 420px;
+}
+.section-2 h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card p{
+    text-align: center;
+    font-weight: bold;
+}
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    height: 300px;
+    text-align: center;
+}
+.section-3 p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 20px;
+}
+.section-3 h3{
+    align-self: end;
+}
+.section-4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action{
+    background-color: #3882f6;
+    width: 80%;
+    height: 100px;
+    color: #f9faf8;
+    border-radius: 8px;
+}
+.align h4{
+    margin-bottom:0 ;
+}
+.action{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.action p{
+    margin-top: 0;
+}
+
+.action button{
+    height: 25px;
+    align-self: center;
+    border: 2px solid #f9faf8;
+    color: white;
+    background-color: #3882f6;
+    width: 90px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.footer{
+    height: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:320px) and (max-width:480px){
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column ;
+    }
+  }
